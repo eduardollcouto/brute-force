@@ -30,8 +30,6 @@ Foram criados e utilizados scripts interativos em **Bash** e **Python** para aut
 | `bruteforce_ftp.sh/py` | FTP (Módulo `ftp` do Medusa) | Bash/Python | Cria listas e tenta autenticação contra a porta 21. |
 | `bruteforce_ssh.sh/py` | SSH (Módulo `ssh` do Medusa) | Bash/Python | Cria listas e tenta autenticação contra a porta 22. |
 
----
-
 ## ⚙️ Detalhamento dos Comandos de Teste (SSH e FTP)
 
 Esta seção documenta a preparação de listas e a sintaxe de ataque utilizada para simular a Força Bruta em ambos os serviços no ambiente de laboratório.
@@ -77,7 +75,6 @@ O objetivo em ambos os casos é tentar descobrir **credenciais de *login* válid
 3.  Ele executa essas tentativas usando **múltiplas *threads*** (`-t`) para acelerar significativamente o processo de tentativa e erro.
 4.  Se uma combinação for bem-sucedida, o Medusa exibirá as credenciais encontradas, comprovando a vulnerabilidade.
 
----
 ## Principais Recomendações de Mitigação
 
 As credenciais foram descobertas devido à falta de controles de segurança adequados. As seguintes medidas são essenciais para mitigar o risco de Força Bruta em qualquer ambiente de produção:
