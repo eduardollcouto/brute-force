@@ -30,7 +30,7 @@ Foram criados e utilizados scripts interativos em **Bash** e **Python** para aut
 | `bruteforce_ftp.sh/py` | FTP (Módulo `ftp` do Medusa) | Bash/Python | Cria listas e tenta autenticação contra a porta 21. |
 | `bruteforce_ssh.sh/py` | SSH (Módulo `ssh` do Medusa) | Bash/Python | Cria listas e tenta autenticação contra a porta 22. |
 
-## ⚙️ Detalhamento dos Comandos de Teste (SSH e FTP)
+## Detalhamento dos Comandos de Teste (SSH e FTP)
 
 Esta seção documenta a preparação de listas e a sintaxe de ataque utilizada para simular a Força Bruta em ambos os serviços no ambiente de laboratório.
 
